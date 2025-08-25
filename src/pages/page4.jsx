@@ -16,7 +16,7 @@ import house from '../assets/projectimage/house.jpg';
 import iris from '../assets/projectimage/iris.jpg';
 import personal from '../assets/projectimage/robo.jpg';
 import gemini from '../assets/projectimage/gemini.jpg';
-import oip from '../assets/projectimage/OIP.Webp';
+import oip from '../assets/projectimage/OIP.webp';
 import dashboard from '../assets/projectimage/Dashboard.png';
 import handW from '../assets/projectimage/OIP.jpg';
 
