@@ -47,7 +47,7 @@ const Mainpage = () => {
               With expertise in AI, ML, and Python frameworks, I build creative and artistic applications.
             </p>
             <div className='lg:flex sm:flex md:flex sm:ml-[30%] sm:scale-75 sm:my-2 lg:-ml-8 bg-blue-600 text-xl gap-3 items-center w-fit  align-middle px-7 -ml-6 scale-75 hover:scale-100 hover:text-blue-800 hover:bg-white rounded-md duration-200  my-2 -mb-14 p-4'>
-            <GoDownload size={35}/>   <a href='' download={PdfDoc} type='application/pdf'  >  Download Resume</a>
+            <GoDownload size={35}/>   <a href={PdfDoc} download="KATHIR CV.pdf" type='application/pdf'  >  Download Resume</a> 
             </div>
           </div>
           
