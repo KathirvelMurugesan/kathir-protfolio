@@ -26,8 +26,8 @@ A modern, responsive portfolio website built with React and Vite, showcasing pro
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/kathir-portfolio.git
-cd kathir-portfolio
+git clone https://github.com/KathirvelMurugesan/KathirM-Portfolio.git
+cd KathirM-Portfolio
 ```
 
 2. Install dependencies:
