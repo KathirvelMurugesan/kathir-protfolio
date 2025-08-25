@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Projectcomp from '../coponents/Projectcomp';
+import Projectcomp from '../coponents/projectcomp.jsx';
 import { GoDownload } from 'react-icons/go';
 import PdfDoc from '../assets/Paper2.pdf';
 
