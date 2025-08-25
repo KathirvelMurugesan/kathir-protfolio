@@ -286,7 +286,9 @@ emphasizes real-time inference, memory efficiency,
 modular extensibility, and continual learning using modern 
 distributed systems.             </p>
       <div className='lg:flex  md:flex  bg-blue-600 text-xl gap-3 sm:p-10 sm:flex-col sm:gap-y-7 items-center w-fit  align-middle px-10  scale-75 hover:scale-100 hover:text-blue-800 hover:bg-white rounded-md duration-200  my-2 mt-6 -mb-16 p-4'>
-      <GoDownload size={35}/><a href='' download={PdfDoc} type='application/pdf'>View Paper</a>
+      <GoDownload size={35}/><a href={PdfDoc} download="Paper2.pdf" type="application/pdf">
+  View Paper
+</a>
       </div>
       </center>
    
