@@ -14,13 +14,13 @@ import scematic from '../assets/projectimage/documentreader.jpg';
 import sales from '../assets/projectimage/sales.jpg';
 import house from '../assets/projectimage/house.jpg';
 import iris from '../assets/projectimage/iris.jpg';
-import personal from '../assets/projectimage/robo.jpg';
+import personal from '../assets/projectimage/robo.jpg'; 
 import gemini from '../assets/projectimage/gemini.jpg';
 import oip from '../assets/projectimage/OIP.webp';
 import dashboard from '../assets/projectimage/Dashboard.png';
 import handW from '../assets/projectimage/OIP.jpg';
 
-import video1 from '../assets/Videos/imagegeneration.mp4';
+import video1 from "../assets/Videos/ImageGeneration.mp4";
 import video14 from '../assets/Videos/dashboard.mp4';
 import video2 from '../assets/Videos/Catsordogclassificationinsvm.mp4';
 import video3 from '../assets/Videos/Cridit card fraud detection.mp4';
