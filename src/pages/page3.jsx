@@ -3,7 +3,7 @@ import Archivements from '../coponents/archivements';
 import imagegreek from '../assets/Blrimg.jpg';
 import bubblerose from '../assets/gpic.jpg';
 import bubblerose1 from '../assets/The Joy of Computing using Python.jpg';
-import guvi from '../assets/GuviCertification - 015Iu77306sBWqH921.png';
+import guvi from '../assets/kathirvelcertificte.jpeg';
 import DatascienceIntern from '../assets/Screenshot_2024_0322_175146.jpg';
 import Allience from '../assets/Allience.jpeg';
 import codsoft from '../assets/Screenshot_2024_0322_085934.jpg';
@@ -38,12 +38,12 @@ const Page3 = () => {
             />
 
             <Archivements
-              topic="Skill Vertex with Stipend "
-              imagename={skillvertex}
-              detailing="Completed Skill Vertex AI & Machine Learning internship with a stipend of ₹15,000, gaining hands-on experience in Prompt Engineering, Deep Learning, and model deployment. Worked on real-world projects
-               involving NLP, computer vision, and AI-powered solutions"
+              topic="Reva University GameForce"
+              imagename={imagegreek}
+              detailing="Achieved Top 15 finalist position in the GameForce Game Development Challenge at Reva University, competing among 100+ teams."
             />
 
+            
             <Archivements
               topic="Alliance University Hackathon"
               imagename={bubblerose}
@@ -53,14 +53,16 @@ const Page3 = () => {
              <Archivements
               topic="Guvi Certification"
               imagename={guvi}
-              detailing="Successfully completed a certified online course with Guvi, including a hands-on mini project in full-stack development."
+              detailing="Successfully completed a certified online course with Guvi, including a hands-on mini project in AI development."
             />
 
-            <Archivements
-              topic="Reva University GameForce"
-              imagename={imagegreek}
-              detailing="Achieved Top 15 finalist position in the GameForce Game Development Challenge at Reva University, competing among 100+ teams."
+           <Archivements
+              topic="Skill Vertex with Stipend "
+              imagename={skillvertex}
+              detailing="Completed Skill Vertex AI & Machine Learning internship with a stipend of ₹15,000, gaining hands-on experience in Prompt Engineering, Deep Learning, and model deployment. Worked on real-world projects
+               involving NLP, computer vision, and AI-powered solutions"
             />
+
 
             <Archivements
               topic="CodSoft Internship"
