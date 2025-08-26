@@ -269,7 +269,7 @@ const Page4 = () => {
         
       </div>
     <center>
-       <p className='text-base lg:text-2xl md:text-lg text-blue-500 font-raw py-2 my-8 px-3 scale-75 sm:scale-90'>
+       <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 Research & Paper Publications
 Author of innovative work in AI, Machine Learning, and scalable web technologies.
 Committed to contributing impactful ideas to the academic and developer community.
