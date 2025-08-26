@@ -14,7 +14,7 @@ const App = () => {
     <Header/>
     <Mainpage/>
        <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
-Driven, detail-oriented full-stack developer with strong foundations in AI, ML, and modern web technologies.
+Driven, detail-oriented AI full-stack developer with strong foundations in AI, ML, MLOPS and modern web technologies.
 Passionate about building intelligent, scalable solutions while maintaining precision and quality. </p>
     <Page2/>
         <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
