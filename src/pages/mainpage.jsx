@@ -71,10 +71,6 @@ const Mainpage = () => {
             <h2 className='text-xl md:text-2xl font-bold  text-white mt-2'>Years of Practicing</h2>
           </div>
 
-          <div className='text-center hover:scale-110 duration-300'>
-            <span className='text-5xl font-extrabold  text-white'>20</span>
-            <h2 className='text-xl md:text-2xl font-bold  text-white mt-2'>Age</h2>
-          </div>
 
           <div className='text-center hover:scale-110 duration-300'>
             <span className='text-5xl font-extrabold  text-white'>10+</span>
