@@ -9,9 +9,8 @@ const Page5 = () => {
        <img src={predator} width={600}         className="w-[450px] h-[350px] relative top-24 z-50 sm:scale-90 sm:rounded-xl mt-6 object-cover hover:scale-105 duration-300 rounded-md mb-0"
  alt="" srcset="" />
  <div className='bg-gradient-to-br from-black  via-slate-950  to-blue-950  mx-12 py-10 h-fit sm:w-[100%] md:w-[100%]   flex flex-col align-middle rounded-md rounded-b-3xl scale-90 my-4'>
-       <div className='my-9 font-semibold px-6 sm:scale-90'>
-     I’m a passionate AI & Machine Learning Engineer with a strong focus on Prompt Engineering, Deep Learning, and intelligent data-driven solutions. My expertise lies in designing and fine-tuning advanced language models, creating AI-powered tools, and developing deep learning architectures that solve complex real-world problems. I specialize in integrating large language models with cutting-edge NLP techniques, building robust machine learning pipelines, and leveraging cloud platforms like AWS for scalable AI deployments. With hands-on experience in Python, TensorFlow, PyTorch, and modern AI frameworks, I thrive on transforming ideas into impactful, future-ready AI 
-     solutions — from predictive analytics to generative AI applications.
+       <div className='my-9 font-semibold px-6 sm:scale-90 text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 '>
+     AI Full-Stack Engineer with strong expertise in machine learning, deep learning, and full-stack web development. Proven ability to architect and deploy scalable AI-driven applications using Python, TensorFlow/PyTorch, React, Node.js, and cloud platforms like AWS, GCP, and Azure. Experienced in building intelligent systems integrating NLP, computer vision, and generative AI models, and deploying them with modern MLOps practices. Adept at designing and optimizing both backend AI pipelines and frontend user interfaces for real-time analytics, chatbot systems, recommendation engines, and intelligent dashboards
        </div>
        <div className='flex lg:flex-row justify-between bg-gradient-to-r from-black to-blue-700 px-12 mx-10 md:flex-col sm:flex-col rounded-md hover:from-black hover:to-black hover:text-white ease-in-out py-5 sm:scale-90 hover:scale-100 scale-90 duration-300 delay-100  '>
         <div className='flex flex-row  align-middle items-center  px-2 py-4  p-12 m-2 '>
