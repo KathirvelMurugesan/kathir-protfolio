@@ -32,26 +32,6 @@ const Header = () => {
         </motion.h1>
       </div>
 
-      <div className="lg:flex hidden space-x-4 p-3 rounded-lg px-14">
-        {["Just Scroll","Down"," And Explore"].map((item, index) => (
-          <motion.a
-            key={item}
-            initial={{ opacity: 0, y: -35 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 20,
-              delay: 0.7 + index * 0.2,
-            }}
-            href="#"
-            className="relative text-white dark:text-gray-200 text-xs hover:text-violet-500 font-bold transition-colors duration-300 group"
-          >
-            {item}
-            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-violet-600 group-hover:w-full duration-300"></span>
-          </motion.a>
-        ))}
-      </div>
 
       <motion.div initial={{ opacity: 0, x: 105 }}
             animate={{ opacity: 1, x: 0}}
@@ -83,16 +63,7 @@ const Header = () => {
   />
 </a>
 
-<a
-  href="https://wa.me/919025666734"
-  target="_blank"
-  rel="no opener no referrer"
->
-  <FaWhatsapp
-    size={30}
-    className="text-white hover:scale-125 cursor-pointer transition duration-300"
-  />
-</a>
+
 
         <button
           className="text-white focus:outline-none lg:hidden"
