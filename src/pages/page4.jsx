@@ -277,6 +277,9 @@ Committed to contributing impactful ideas to the academic and developer communit
  </p>
 
             <h1 className="text-center text-4xl lg:text-6xl sm:mt-20 font-boldy mt-10 mb-10">Paper publision</h1>
+      <p className='text-base lg:text-2xl md:text-lg scale-90 text-white font-raw py-2 px-3'>
+             <b>Title : </b><span>Cluster AWER Multi Model Transformer System</span>
+      </p>
              <p className='text-base lg:text-2xl md:text-lg scale-90 text-white font-raw py-2 px-3'>
 Abstract— This architecture is designed for scalable, 
 distributed multimodal AI processing, enabling efficient 
