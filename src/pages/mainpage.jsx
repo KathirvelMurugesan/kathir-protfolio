@@ -43,6 +43,7 @@ const Mainpage = () => {
           <div className='w-full lg:w-1/2 text-center lg:text-left'>
             <motion.div initial={{opacity:0,x:-120}} animate={{opacity:1,x:2}} transition={{stiffness:20, damping:70, duration:0.7 , delay:0.3}}><h1 className='text-7xl md:text-6xl lg:text-7xl font-boldy text-blue-400 py-4'>Kathirvel Murugesan</h1></motion.div>
             <h3 className='text-3xl animate-pulse md:text-2xl font-semibold text-white py-2 px-3'>AI ML  --  Prompt Engineer</h3>
+            <h3 className='text-3xl animate-pulse md:text-2xl font-semibold text-white py-2 px-3'>MLOPS Engineer</h3>
             <p className='text-base lg:text-2xl md:text-lg text-white font-raw py-2 px-3'>
               With expertise in AI, ML, and Python frameworks, I build creative and artistic applications.
             </p>
@@ -78,6 +79,11 @@ const Mainpage = () => {
           <div className='text-center hover:scale-110 duration-300'>
             <span className='text-5xl font-extrabold  text-white'>10+</span>
             <h2 className='text-xs md:text-2xl font-bold  text-white mt-2'>Tools & Technologies</h2>
+          </div>
+
+          <div className='text-center hover:scale-110 duration-300'>
+            <span className='text-5xl font-extrabold  text-white'>50+</span>
+            <h2 className='text-xs md:text-2xl font-bold  text-white mt-2'>Certificates</h2>
           </div>
 
         </motion.div>
