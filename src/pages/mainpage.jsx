@@ -9,7 +9,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 // ✅ Inline Header Component (Placeholder)
 const Header = () => (
   <div className="absolute top-5 right-5 flex gap-4 text-white text-2xl z-50">
-    <a href="mailto:your.email@example.com" className="hover:text-blue-400">
+{/*     <a href="mailto:your.email@example.com" className="hover:text-blue-400">
       <HiOutlineMail />
     </a>
     <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
@@ -17,7 +17,7 @@ const Header = () => (
     </a>
     <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
       <FaTwitter />
-    </a>
+    </a> */}
   </div>
 );
 
