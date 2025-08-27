@@ -53,7 +53,7 @@ const Header = () => {
           <FaTwitter size={30} className="text-white hover:scale-125 cursor-pointer transition duration-300" />
         </a>
 
-        <a href="mailto:kathirvel@example.com">
+        <a href="mailto:kathirvelmurugesan1@gmail.com">
           <HiOutlineMail size={30} className="text-white hover:scale-125 cursor-pointer transition duration-300" />
         </a>
       </motion.div>
