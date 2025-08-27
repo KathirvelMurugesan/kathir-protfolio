@@ -13,11 +13,11 @@ const App = () => {
     <div className='' >
     <Header/>
     <Mainpage/>
-       <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+       <p className='text-base text-justify lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 Driven, detail-oriented AI full-stack developer with strong foundations in AI, ML, MLOPS and modern web technologies.
 Passionate about building intelligent, scalable solutions while maintaining precision and quality. </p>
     <Page2/>
-        <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+        <p className='text-base lg:text-3xl text-justify md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 "Worked on AI & Machine Learning projects involving NLP, deep learning model development, and predictive analytics. Designed and deployed containerized workflows
  using Docker, enabling scalable, efficient, and production-ready AI solutions </p>
     {/* <CertificationsPage/> */}
@@ -25,23 +25,23 @@ Passionate about building intelligent, scalable solutions while maintaining prec
     
     <Page4/>
 
-     <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+     <p className='text-base lg:text-3xl text-justify md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 Achievements & Milestones
 Recognized for excellence in academics, technical innovation, and collaborative projects.
 Dedicated to continuous growth through challenges, competitions, and impactful contributions. </p>
     <Page3/>
 
-     <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+     <p className='text-base lg:text-3xl text-justify md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 Passionate full-stack developer with a strong foundation in AI, ML, and modern web technologies.
 Focused on building intelligent, scalable, and user-friendly solutions with precision and creativity. </p>
     <Page5/>
 
-      <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+      <p className='text-base lg:text-3xl  text-justify md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
   Contact
   Let's connect to collaborate, innovate, and create impactful solutions.
   Reach out via phone, email, or social platforms to start the conversation. </p>
     <ContactUs/>
-    <p className='text-base lg:text-3xl md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
+    <p className='text-base lg:text-3xl text-justify md:text-lg text-white-800 font-raw py-2 my-4 px-3 scale-95 sm:scale-90'>
 Thank you for taking the time to explore my portfolio.
 I hope this journey through my work, skills, and achievements has given you a glimpse of my passion for technology and innovation.
 Your visit means a lot — and I look forward to potential collaborations, new ideas, and exciting opportunities ahead. </p>
