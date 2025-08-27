@@ -1,16 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import tecky from "../assets/tecky.jpg";
 import { motion } from 'framer-motion';
 import PdfDoc from '../assets/KATHIR CV.pdf';
 import { GoDownload } from 'react-icons/go';
 import { FaGithub, FaTwitter } from 'react-icons/fa';
-import { FiMenu, FiX } from 'react-icons/fi';
 import { HiOutlineMail } from 'react-icons/hi';
 
+// ✅ Inline Header Component (Placeholder)
+const Header = () => (
+  <div className="absolute top-5 right-5 flex gap-4 text-white text-2xl z-50">
+    <a href="mailto:your.email@example.com" className="hover:text-blue-400">
+      <HiOutlineMail />
+    </a>
+    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+      <FaGithub />
+    </a>
+    <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400">
+      <FaTwitter />
+    </a>
+  </div>
+);
 
+// ✅ Main Component
 const Mainpage = () => {
   return (
     <div className='relative min-h-screen'>
+
       {/* Background image */}
       <motion.div  
         className='absolute inset-0 bg-cover bg-center z-0'
@@ -19,6 +34,7 @@ const Mainpage = () => {
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
 
       <section className='relative z-20 min-h-screen flex flex-col justify-center items-center px-4 lg:px-20'>
+        
         <Header />
         
         <motion.div
