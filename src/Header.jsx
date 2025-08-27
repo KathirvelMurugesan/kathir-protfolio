@@ -32,6 +32,7 @@ const Header = () => {
         </motion.h1>
       </div>
 
+      <i class="bi bi-envelope-fill"></i>
 
       <motion.div initial={{ opacity: 0, x: 105 }}
             animate={{ opacity: 1, x: 0}}
