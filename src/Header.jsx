@@ -9,13 +9,14 @@ const Header = () => {
 
   return (
     <div className="flex flex-row bg-slate-900 px-5 h-24 md:px-8 sm:px-12 justify-between items-center z-50 relative sm:w-screen md:w-screen">
-      {/* Logo */}
+      
+      {/* Logo and Title */}
       <div className="flex flex-row items-center">
         <motion.div
           initial={{ opacity: 0, x: -105 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.3 }}
-          className="bg-gradient-to-tr from-white via-violet-200 to-white text-2xl font-extrabold text-black p-5 rounded-md"
+          className="bg-gradient-to-tr from-white via-violet-200 to-white text-xl font-extrabold text-black px-4 py-2 rounded-md"
         >
           K
         </motion.div>
@@ -29,14 +30,13 @@ const Header = () => {
         </motion.h1>
       </div>
 
-      {/* Social Icons */}
+      {/* Social Icons - hidden on small screens */}
       <motion.div
         initial={{ opacity: 0, x: 105 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ type: "spring", stiffness: 100, damping: 35, delay: 0.9 }}
-        className="flex items-center gap-4"
+        className="hidden sm:flex items-center gap-4"
       >
-        {/* GitHub */}
         <a
           href="https://github.com/KathirvelMurugesan"
           target="_blank"
@@ -45,7 +45,6 @@ const Header = () => {
           <FaGithub size={30} className="text-white hover:scale-125 cursor-pointer transition duration-300" />
         </a>
 
-        {/* Twitter */}
         <a
           href="https://x.com/murugesank93812?s=08"
           target="_blank"
@@ -54,19 +53,18 @@ const Header = () => {
           <FaTwitter size={30} className="text-white hover:scale-125 cursor-pointer transition duration-300" />
         </a>
 
-        {/* Email */}
         <a href="mailto:kathirvel@example.com">
           <HiOutlineMail size={30} className="text-white hover:scale-125 cursor-pointer transition duration-300" />
         </a>
-
-        {/* Mobile Menu Button (optional, kept for expansion) */}
-        <button
-          className="text-white focus:outline-none lg:hidden"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          <FiMenu size={30} />
-        </button>
       </motion.div>
+
+      {/* Mobile Menu Button (optional use) */}
+      <button
+        className="text-white focus:outline-none lg:hidden"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        <FiMenu size={30} />
+      </button>
     </div>
   );
 };
