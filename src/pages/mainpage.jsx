@@ -34,13 +34,15 @@ const Mainpage = () => {
             <p className='text-base lg:text-2xl md:text-lg text-white font-raw py-2 px-3'>
               With expertise in AI, ML, and Python frameworks, I build creative and artistic applications.
             </p>
-            <div className='lg:flex sm:flex md:flex sm:ml-[30%] sm:scale-75 sm:my-2 lg:-ml-8 bg-blue-600 text-xl gap-3 items-center w-fit align-middle px-7 -ml-6 scale-75 hover:scale-100 hover:text-blue-800 hover:bg-white rounded-md duration-200 my-2 -mb-14 p-4'>
-              <GoDownload size={35}/>   
-              <a href={PdfDoc} download="KATHIR CV.pdf" type='application/pdf'>
-                Download Resume
-              </a> 
-            </div>
-          </div>
+            <div className='w-full flex justify-center mt-6'>
+  <div className='flex items-center bg-blue-600 text-xl gap-3 px-6 py-3 rounded-md hover:scale-105 hover:text-blue-800 hover:bg-white duration-200'>
+    <GoDownload size={30}/>   
+    <a href={PdfDoc} download="KATHIR CV.pdf" type='application/pdf'>
+      Download Resume
+    </a> 
+  </div>
+</div>
+
 
           <div className='w-full md:w-1/2 relative flex justify-center'>
             {/* Optional image or content */}
