@@ -41,7 +41,7 @@ const Mainpage = () => {
       className="flex flex-col-reverse lg:flex-row w-full items-center justify-between gap-8 py-10">
           
           <div className='w-full lg:w-1/2 text-center lg:text-left'>
-            <motion.div initial={{opacity:0,x:-120}} animate={{opacity:1,x:2}} transition={{stiffness:20, damping:70, duration:0.7 , delay:0.3}}><h1 className='text-7xl md:text-6xl lg:text-7xl font-boldy text-blue-400 py-4'>Kathirvel Murugesan</h1></motion.div>
+            <motion.div initial={{opacity:0,x:-120}} animate={{opacity:1,x:2}} transition={{stiffness:20, damping:70, duration:0.7 , delay:0.3}}><h1 className='text-7xl md:text-6xl lg:text-7xl font-boldy text-blue-400 py-4'>Kathirvel M</h1></motion.div>
             <h3 className='text-3xl animate-pulse md:text-2xl font-semibold text-white py-2 px-3'>AI ML  --  Prompt Engineer</h3>
             <h3 className='text-3xl animate-pulse md:text-2xl font-semibold text-white py-2 px-3'>MLOPS Engineer</h3>
             <p className='text-base lg:text-2xl md:text-lg text-white font-raw py-2 px-3'>
