@@ -26,7 +26,7 @@ const Mainpage = () => {
               transition={{ stiffness: 20, damping: 70, duration: 0.7, delay: 0.3 }}
             >
               <h1 className='text-7xl md:text-6xl lg:text-7xl font-boldy text-blue-400 py-4'>
-                Kathirvel <span className="uppercase">Murugesan</span>
+                Kathirvel Murugesan
               </h1>
             </motion.div>
             <h3 className='text-3xl animate-pulse md:text-2xl font-semibold text-white py-2 px-3'>AI ML  --  Prompt Engineer</h3>
