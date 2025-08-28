@@ -67,6 +67,7 @@ const Page2 = () => {
       
         {/* Education */}
         <Section title="Education" className='p-9 '>
+          <Educationbar topic="Graduation" details="Knowledge Institite of technology" />
           <Educationbar topic="Graduation" details="Bachelor of Technology" />
           <Educationbar topic="Domain" details="Information Technology" />
           <Educationbar topic="Percentage" details="71%" />
