@@ -228,7 +228,7 @@ const projectList = [
   { topic: "AI Image Generator", imagename: aiimagegen, videoname: video1, elaborate: aitxt },
   { topic: "HandWriting Analysis", imagename: handW , videoname: video13, elaborate: newProject },
   { topic: "Dashboard", imagename: dashboard, videoname: video14, elaborate: finAnalysis },
-  { topic: "Gemini Chatbot", imagename: gemini, videoname: video6, elaborate: geminichatbor },
+  { topic: "Gemini API Intergrated Chatbot", imagename: gemini, videoname: video6, elaborate: geminichatbor },
   { topic: "Semantic Search", imagename: scematic, videoname: video11, elaborate: scematictext },
   { topic: "Text Generator", imagename: oip, videoname: video12, elaborate: textgenerator },
   { topic: "Document Reader", imagename: docred, videoname: video5, elaborate: textsumm },
