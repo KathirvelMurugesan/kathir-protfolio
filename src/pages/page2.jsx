@@ -96,10 +96,10 @@ const Page2 = () => {
 
         <Section title="Skills" className="p-10 ">
           <ProgressBar progress={90} techname="Python" />
-          <ProgressBar progress={75} techname="Machine Learning" />
-          <ProgressBar progress={70} techname="Deep Learning" />
+          <ProgressBar progress={90} techname="Machine Learning" />
+          <ProgressBar progress={90} techname="Deep Learning" />
           <ProgressBar progress={90} techname="Flask | Fast API" />
-          <ProgressBar progress={75} techname="Data Science" />
+          <ProgressBar progress={90} techname="Data Science" />
           <ProgressBar progress={60} techname="React JS" />
         </Section>
         
